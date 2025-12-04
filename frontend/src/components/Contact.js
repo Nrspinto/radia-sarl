@@ -47,7 +47,7 @@ const Contact = () => {
       // Uncomment and configure when EmailJS is set up:
        await emailjs.send(
          'service_k4mci8s',
-         'templates_sg0rey1',
+         'template_sg0rey1',
          formData,
          'OTVBDGFeVr5bwL8rA'
        );
