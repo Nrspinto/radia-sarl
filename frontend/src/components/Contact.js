@@ -45,12 +45,12 @@ const Contact = () => {
       await new Promise(resolve => setTimeout(resolve, 1000));
       
       // Uncomment and configure when EmailJS is set up:
-      // await emailjs.send(
-      //   'YOUR_SERVICE_ID',
-      //   'YOUR_TEMPLATE_ID',
-      //   formData,
-      //   'YOUR_PUBLIC_KEY'
-      // );
+       await emailjs.send(
+         'service_k4mci8s',
+         'templates_sg0rey1',
+         formData,
+         'OTVBDGFeVr5bwL8rA'
+       );
 
       toast.success(t('contact.success'));
       setFormData({
@@ -248,8 +248,8 @@ const Contact = () => {
                   </div>
                   <div>
                     <h4 className="text-white font-semibold mb-1">{t('contact.info.whatsapp')}</h4>
-                    <a href="https://wa.me/237XXXXXXXXX" className="text-gray-400 hover:text-[#D4AF37] text-sm transition-colors">
-                      +237 XXX XXX XXX
+                    <a href="https://wa.me/237650446668" className="text-gray-400 hover:text-[#D4AF37] text-sm transition-colors">
+                      +237 650 44 66 68
                     </a>
                   </div>
                 </div>
@@ -260,8 +260,8 @@ const Contact = () => {
                   </div>
                   <div>
                     <h4 className="text-white font-semibold mb-1">Email</h4>
-                    <a href="mailto:contact@radiasarldesign.cm" className="text-gray-400 hover:text-[#D4AF37] text-sm transition-colors">
-                      contact@radiasarldesign.cm
+                    <a href="mailto:radiadeco2631@gmail.com" className="text-gray-400 hover:text-[#D4AF37] text-sm transition-colors">
+                      radiadeco2631@gmail.com
                     </a>
                   </div>
                 </div>
@@ -283,7 +283,7 @@ const Contact = () => {
               <h3 className="text-xl font-bold text-white mb-4">Réseaux Sociaux</h3>
               <div className="space-y-3">
                 <a
-                  href="https://wa.me/237XXXXXXXXX"
+                  href="https://wa.me/237650446668"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center space-x-3 text-gray-400 hover:text-[#D4AF37] transition-colors group"
@@ -294,7 +294,7 @@ const Contact = () => {
                   <span>WhatsApp</span>
                 </a>
                 <a
-                  href="https://facebook.com/radiasarl"
+                  href="https://www.facebook.com/radiashop27/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center space-x-3 text-gray-400 hover:text-[#D4AF37] transition-colors group"

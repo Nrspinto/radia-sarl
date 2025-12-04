@@ -38,7 +38,7 @@ const Footer = () => {
             </p>
             <div className="flex space-x-4">
               <a
-                href="https://wa.me/237XXXXXXXXX"
+                href="https://wa.me/237650446668"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 bg-[#D4AF37]/10 hover:bg-[#D4AF37]/20 rounded-lg flex items-center justify-center text-[#D4AF37] transition-colors"
@@ -46,7 +46,7 @@ const Footer = () => {
                 <Phone className="w-5 h-5" />
               </a>
               <a
-                href="https://facebook.com/radiasarl"
+                href="https://www.facebook.com/radiashop27/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 bg-[#D4AF37]/10 hover:bg-[#D4AF37]/20 rounded-lg flex items-center justify-center text-[#D4AF37] transition-colors"
@@ -97,14 +97,14 @@ const Footer = () => {
               </li>
               <li className="flex items-start space-x-3">
                 <Phone className="w-5 h-5 text-[#D4AF37] flex-shrink-0 mt-0.5" />
-                <a href="https://wa.me/237XXXXXXXXX" className="text-gray-400 hover:text-[#D4AF37] text-sm transition-colors">
-                  +237 XXX XXX XXX
+                <a href="https://wa.me/237650446668" className="text-gray-400 hover:text-[#D4AF37] text-sm transition-colors">
+                  +237 650 44 66 68
                 </a>
               </li>
               <li className="flex items-start space-x-3">
                 <Mail className="w-5 h-5 text-[#D4AF37] flex-shrink-0 mt-0.5" />
-                <a href="mailto:contact@radiasarldesign.cm" className="text-gray-400 hover:text-[#D4AF37] text-sm transition-colors">
-                  contact@radiasarldesign.cm
+                <a href="mailto:radiadeco2631@gmail.com" className="text-gray-400 hover:text-[#D4AF37] text-sm transition-colors">
+                  radiadeco2631@gmail.com
                 </a>
               </li>
             </ul>
