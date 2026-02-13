@@ -40,11 +40,8 @@ const Contact = () => {
     setIsSubmitting(true);
 
     try {
-      // EmailJS configuration - User will need to set up their own account
-      // For now, we'll simulate a successful submission
+      // EmailJS configuration 
       await new Promise(resolve => setTimeout(resolve, 1000));
-      
-      // Uncomment and configure when EmailJS is set up:
        await emailjs.send(
          'service_k4mci8s',
          'template_sg0rey1',
@@ -260,8 +257,8 @@ const Contact = () => {
                   </div>
                   <div>
                     <h4 className="text-white font-semibold mb-1">Email</h4>
-                    <a href="mailto:radiadeco2631@gmail.com" className="text-gray-400 hover:text-[#D4AF37] text-sm transition-colors">
-                      radiadeco2631@gmail.com
+                    <a href="mailto:radiasarl26@gmail.com" className="text-gray-400 hover:text-[#D4AF37] text-sm transition-colors">
+                      radiasarl26@gmail.com
                     </a>
                   </div>
                 </div>
