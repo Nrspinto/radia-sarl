@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/radia-sarl/static/css/main.a7c68a42.css",
-    "main.js": "/radia-sarl/static/js/main.0a74811d.js",
+    "main.js": "/radia-sarl/static/js/main.79484745.js",
     "index.html": "/radia-sarl/index.html",
     "main.a7c68a42.css.map": "/radia-sarl/static/css/main.a7c68a42.css.map",
-    "main.0a74811d.js.map": "/radia-sarl/static/js/main.0a74811d.js.map"
+    "main.79484745.js.map": "/radia-sarl/static/js/main.79484745.js.map"
   },
   "entrypoints": [
     "static/css/main.a7c68a42.css",
-    "static/js/main.0a74811d.js"
+    "static/js/main.79484745.js"
   ]
 }
