@@ -1,6 +1,7 @@
 import React from 'react';
 import { useLanguage } from '../context/LanguageContext';
 import { ArrowRight, Sparkles } from 'lucide-react';
+import { siteImages } from '../config/images';
 
 const Hero = () => {
   const { t } = useLanguage();
@@ -17,7 +18,7 @@ const Hero = () => {
       {/* Background Image with Overlay */}
       <div className="absolute inset-0">
         <img
-          src="https://images.unsplash.com/photo-1639663742190-1b3dba2eebcf?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1NzZ8MHwxfHNlYXJjaHwxfHxsdXh1cnklMjBtb2Rlcm4lMjBpbnRlcmlvciU3Q2VufDB8fHx8MTc2NDg1NTE2Mnww&ixlib=rb-4.1.0&q=85"
+          src={siteImages.hero}
           alt="Luxury Interior"
           className="w-full h-full object-cover"
         />
